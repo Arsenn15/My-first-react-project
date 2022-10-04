@@ -1,0 +1,64 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background: rgba(44, 55, 5, 0.68);
+}
+
+.contener{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.countryFlag{
+  margin: 6px auto;
+  width: 250px;
+  border-radius: 2px;
+  border: 3px solid #35a47a;
+  background-color: #35a47a;
+
+}
+
+.countryFlag:empty{
+  border: none;
+}
+
+.photoCard {
+  display: flex;
+  align-items: center;
+  width: 350px;
+  height: 35px;
+
+}
+
+.image{
+  width: 30px;
+}
+
+.searchCoutry {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+
+}
+
+.search input {
+  background-color: white;
+  border: 0;
+  border-radius: 4px;
+  font-size: 18px;
+  padding: 15px;
+  height: 30px;
+  width: 300px;
+}
+
+input:focus {
+  outline: none;
+}

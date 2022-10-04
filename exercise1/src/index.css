@@ -1,0 +1,117 @@
+:root {
+  --primary: #4ab08d;
+  --secondary: #383957;
+  --grey: #353705;
+  --light: #410b0b;
+  --dark: #833434;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+
+  font-family: 'Fira sans', sans-serif;
+}
+
+body {
+  background-color: var(--light);
+}
+
+.App {
+  padding: 3rem 2rem;
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+h1 {
+
+  font-size: 4rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+p {
+  color: var(--grey);
+  font-style: italic;
+  margin-bottom: 2rem;
+}
+
+.counter {
+  background-color: var(--dark);
+  padding: 1rem;
+  border-radius: 1rem;
+  color: #ffffff;
+}
+
+.counter-value {
+  font-size: 8rem;
+  text-align: center;
+}
+
+.counter-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 -1rem;
+}
+
+.counter > p > span{
+  color: #ffffff;
+  font-size: 22px;
+}
+button {
+  appearance: none;
+  outline: none;
+  border: none;
+  background: none;
+
+  margin: 0 1rem;
+
+  color: var(--primary);
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+}
+
+button:active {
+  transform: scale(1.1);
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.footer {
+  display: flex;
+  margin: 20px auto;
+  flex-flow: wrap;
+  justify-content: space-evenly;
+}
+
+.footer > div > label {
+  margin-right: 5px;
+  color: var(--primary);
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.footer > div > input {
+  font-size: 20px;
+  margin: 4px auto;
+  padding: 5px;
+  width: 80px;
+  height: 35px;
+  border-radius: 5px;
+  border: none;
+}

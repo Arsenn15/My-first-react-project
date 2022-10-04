@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Argentinia",
+    "image": "/images/argentinia.jpg",
+    "count": 0
+  },
+  {
+    "id": 2,
+    "name": "Armenia",
+    "image": "/images/armenia.webp",
+    "count": 0
+  },
+  {
+    "id": 3,
+    "name": "Brazil",
+    "image": "/images/brazil.jpg",
+    "count": 0
+  },
+  {
+    "id": 4,
+    "name": "Czech",
+    "image": "/images/czech.jpg",
+    "count": 0
+  },
+  {
+    "id": 5,
+    "name": "England.js",
+    "image": "/images/england.jpg",
+    "count": 0
+  },
+  {
+    "id": 6,
+    "name": "Russia",
+    "image": "/images/russia.jpg",
+    "count": 0
+  }
+]
